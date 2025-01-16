@@ -12,7 +12,7 @@ int main()
     for (i = 0; i < n; i++)
     {
         printf("\nEnter the name\n");
-        scanf("%s", &name[i]);
+        scanf("%s", name[i]);
     }
     for (i = 0; i < n; i++)
     {
