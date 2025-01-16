@@ -6,16 +6,15 @@ void main()
 {
     /* To find the sum of given n number of numbers*/
     int i = 0, sum = 0, n, a;
-    printf("\n How many numbers do want to add ? \n");
+    printf("\nHow many numbers do want to add ?\n");
     scanf("%d", &n);
-    do
+    while (i < n)
     {
-        printf("\nEnter the number to be added\n");
+        printf("Enter the number to be added\n");
         scanf("%d", &a);
         sum = sum + a;
         i++;
-    } while (i < n)
-        printf("The sum of given number is: %d", sum);
-
+    } 
+    printf("The sum of given number is: %d", sum);
     getch();
 }
