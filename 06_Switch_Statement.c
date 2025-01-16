@@ -43,5 +43,5 @@ void main()
         printf("\nPlease Enter the number from 1 to 5\n");
         break;
     }
-    } while (choice!=4);
+    } while (choice!=5);
 }
