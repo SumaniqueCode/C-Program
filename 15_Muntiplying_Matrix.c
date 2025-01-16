@@ -65,10 +65,14 @@ void main()
                 for (k = 0; k < rowb; k++)
                 {
                     matrix[j][k] = a[i][k] * b[k][j];
-                    printf("(%dx%d)+", a[i][k], b[k][j]);
+                    printf("(%dx%d)", a[i][k], b[k][j]);
+                    if (k < rowb - 1) // Avoid printing "+" for the last term
+                    {
+                        printf("+");
+                    }
                     sum[i][j] = sum[i][j] + matrix[j][k];
                 }
-                printf("\b\t"); // The output for escape sequence like /b depends upon the compiler so it may not work sometime.
+                printf("\t");
             }
             printf("\n");
         }
