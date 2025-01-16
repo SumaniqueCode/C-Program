@@ -39,6 +39,7 @@ void main()
         break;
     case 5:
         printf("\nThe program is exited successfully\n");
+        break;
     default:
         printf("\nPlease Enter the number from 1 to 5\n");
         break;
