@@ -11,14 +11,14 @@ void main()
     scanf("%d", &base);
     printf("\nEnter the exponent value\n");
     scanf("%d", &exponent);
-    power = pow(base, exponent);
+    power = pow(base, exponent); //pow function is given file math.h header file
     printf("\n%d^%d = %d", base, exponent, power);
 
     /* TO calculate the square root of a number*/
     float n, s;
     printf("\n\nEnter the number.\n");
     scanf("%f", &n);
-    s = sqrt(n);
+    s = sqrt(n); //sqrt function is given file math.h header file
     printf("\nSquare root of %.2f = %.2f", n, s);
     getch();
 }
