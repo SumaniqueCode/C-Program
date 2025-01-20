@@ -1,13 +1,13 @@
 // Created By Suman Regmi
 
+/*Program to add two numbers*/
 #include <stdio.h>
 #include <conio.h>
 void main()
 {
-  /*To add two numbers*/
-  int a, b, sum;
+  int a, b, sum; //defining the variable with data types.
   printf("\nEnter the first number.\n");
-  scanf("%d", &a);
+  scanf("%d", &a); //Taking the input from the user
   printf("\nEnter the second number.\n");
   scanf("%d", &b);
   sum = a + b;
