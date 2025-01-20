@@ -83,7 +83,7 @@ Contributions are welcome! If you have ideas for improvements or new topics, fee
 
 ## 🛡️ License
 
-This repository is licensed under the [MIT License](LICENSE).
+This repository is licensed under the [MIT License](https://en.wikipedia.org/wiki/MIT_License).
 
 ---
 
