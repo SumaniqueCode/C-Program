@@ -4,6 +4,7 @@
 #include <conio.h>
 int main()
 {
+    // Array is declared by giving square brackets after the variable name. The value inside the bracket is array length.
     int i, c = 0, n, a[999];
     printf("\nHow many staffs do you have?\n");
     scanf("%d", &n);
