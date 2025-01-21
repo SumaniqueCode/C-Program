@@ -3,6 +3,8 @@
 #include <stdio.h>
 void main()
 {
+    //To declare multi-dimensional array you need to have to square brackets after the variable name.
+    //The value inside the first bracket is row length and the second value is column length.
     int i, j, row, column, matrix[20][20];
     printf("\nEnter the number of rows and columns.\n");
     scanf("%d%d", &row, &column);
