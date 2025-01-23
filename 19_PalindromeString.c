@@ -12,7 +12,7 @@ int main()
     scanf("%s", str);
     for (i = strlen(str) - 1; i >= 0; i--)
     {
-        str[i] = tolower(str[i]);
+        str[i] = tolower(str[i]); //tolower is given by <ctype.h> header file. It gives the character in lowercase
         rev[count] = str[i];
         count++;
     }
