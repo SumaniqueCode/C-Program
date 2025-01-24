@@ -3,7 +3,7 @@
 // Function with no arguments and no return value
 #include <stdio.h>
 
-void sum()
+void sum() // This function does not return the value so data type of funtion is void
 {
     int a, b;
     printf("\nEnter two numbers: ");

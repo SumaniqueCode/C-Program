@@ -1,5 +1,7 @@
 // Created By Suman regmi
 
+//To demonstrate switch statements
+
 #include <stdio.h>
 #include <stdlib.h>
 void main()
@@ -12,13 +14,13 @@ void main()
     printf("\nEnter Your choice:\n");
     scanf("%d", &choice);
     switch (choice)
-    {
-    case 1:
+    {// switch block starts here
+    case 1: //if user clicks 1, this block will run
         printf("\nEnter the number to be added:\n");
         scanf("%f%f", &a, &b);
         sum = a + b;
         printf("\nThe sum of given two number is %.2f\n", sum);
-        break;
+        break; //terminates the programs
     case 2:
         printf("\nEnter the number to be subtracted :\n");
         scanf("%f%f", &a, &b);
@@ -40,9 +42,9 @@ void main()
     case 5:
         printf("\nThe program is exited successfully\n");
         break;
-    default:
+    default: //If none of the cases matches, default block will run
         printf("\nPlease Enter the number from 1 to 5\n");
         break;
-    }
-    } while (choice!=5);
+    } //switch block ends here
+    } while (choice!=5); //The switch block will run in loop until user clicks 5 as a choice.
 }
