@@ -6,7 +6,7 @@
 void sum() // This function does not return the value so data type of funtion is void
 {
     int a, b;
-    printf("\nEnter two numbers: ");
+    printf("\nEnter two numbers\n");
     scanf("%d %d", &a, &b);
     printf("Sum of %d and %d is %d", a, b, a + b);
 }
