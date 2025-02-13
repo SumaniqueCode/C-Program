@@ -4,7 +4,7 @@
 
 #include <stdio.h>
 
-float area(float r) // r is argument. This function returns the value of data type float so data type of funtion is float
+float area(float r) // r is parameter. This function returns the value of data type float so data type of funtion is float
 {
     float a;
     a = (22 / 7) * (r * r);
@@ -25,7 +25,7 @@ void main()
     float r;
     printf("\nEnter the radius of circle: ");
     scanf("%f", &r);
-    display(area(r), circumference(r)); // r is passed as parameter here
+    display(area(r), circumference(r)); // r is passed as argument here
 }
 
  // The functions can also be defined at the top and later the statements can be written at he bottom
