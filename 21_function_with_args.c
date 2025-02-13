@@ -3,7 +3,7 @@
 // Function with arguments but no return value
 #include <stdio.h>
 
-void SI(float p, float t, float r) // p, t, r is are arguments here
+void SI(float p, float t, float r) // p, t, r is are parameters here
 {
     float result;
     result = (p * t * r) / 100;
@@ -20,5 +20,5 @@ void main()
     scanf("%f", &t);
     printf("Enter rate in percent: ");
     scanf("%f", &r);
-    SI(p, t, r); // p,t,r is passed as parameter here
+    SI(p, t, r); // p,t,r is passed as arguments here
 }
